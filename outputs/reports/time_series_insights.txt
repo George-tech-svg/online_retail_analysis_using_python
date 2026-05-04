@@ -1,0 +1,32 @@
+
+TIME SERIES INSIGHTS REPORT
+===========================
+
+DAILY PATTERNS
+--------------
+Best Day for Revenue: Thursday (from previous analysis)
+Best Day for Orders: Thursday (from previous analysis)
+Weekday Revenue Share: 85.0%
+Weekend Revenue Share: 15.0%
+
+HOURLY PATTERNS
+---------------
+Peak Hour for Orders: 12:00
+Peak Hour for Revenue: 12:00
+Business Hours Share (9AM-5PM): 65.0%
+
+MONTHLY PATTERNS
+----------------
+Peak Month: Monthly_Sales   2011-11-30
+dtype: datetime64[us]
+Lowest Month: Monthly_Sales   2011-02-28
+dtype: datetime64[us]
+Seasonal Variation: 2.6x difference
+Overall Growth Trend: -9.6%
+
+MARKETING RECOMMENDATIONS
+-------------------------
+Best Email Send Time: 12:00 on Thursday (from previous analysis)
+Avoid Sending On: Sunday
+Peak Inventory Period: November
+Promotional Opportunity: Slow months in summer

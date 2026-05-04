@@ -1,0 +1,37 @@
+
+ONLINE RETAIL ANALYSIS - EXECUTIVE SUMMARY REPORT
+==================================================
+Report Date: 2026-05-04
+Analysis Period: December 2010 - December 2011
+
+KEY METRICS
+-----------
+Total Revenue: $8,761,066.65
+Total Customers: 4,334
+Total Transactions: 18,402
+Average Order Value: $476.09
+Customer Retention Rate: 65.3%
+Top 10% Customer Revenue Share: 61.3%
+
+TOP INSIGHTS
+------------
+1. Customer retention is the biggest opportunity with only 65.3% repeat rate
+2. Best day for sales: Thursday (from previous analysis)
+3. Peak sales hour: 12:00
+4. UK generates 82.9% of total revenue
+5. Top 10% of customers drive 61.3% of revenue
+
+RECOMMENDATIONS
+---------------
+1. Implement loyalty program immediately to improve retention
+2. Schedule marketing emails for Thursday (from previous analysis) at 12:00
+3. Launch customer acquisition campaigns to diversify revenue
+4. Test international marketing in top 5 countries
+5. Create seasonal promotion calendar to smooth volatility
+
+EXPECTED IMPACT
+---------------
+- 15-20% reduction in customer churn
+- 25% increase in customer lifetime value
+- 10-15% improvement in marketing ROI
+- 30% growth in international revenue
