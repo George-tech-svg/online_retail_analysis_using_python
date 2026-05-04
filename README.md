@@ -10,26 +10,6 @@ This project performs a comprehensive data analysis of 541,909 transactions from
 
 ---
 
-## Executive Dashboard
-
-![Executive Dashboard](outputs/figures/executive_dashboard.png)
-
-*Figure 1: Consolidated business insights dashboard showing key metrics*
-
----
-
-## Key Business Questions Answered
-
-| Question | Analysis Method |
-|----------|-----------------|
-| Who are our most valuable customers? | RFM Segmentation |
-| How can we group customers by behavior? | K-Means Clustering |
-| When should we run promotions? | Time Series Analysis |
-| Which customers are at risk of leaving? | Recency Analysis |
-| How can we increase customer lifetime value? | Segment Recommendations |
-
----
-
 ## Project Structure
 online_retail_analysis/
 │
@@ -59,155 +39,153 @@ text
 
 ## Visualizations
 
-### 1. Geographic Revenue Distribution
+### Exploratory Data Analysis Charts
 
+#### 1. Top Countries by Revenue
 ![Top Countries by Revenue](outputs/figures/top_countries_revenue.png)
 
-*Figure 2: Top 10 countries by revenue showing UK dominance*
+*Geographic distribution of revenue showing UK dominance*
 
-### 2. Top Products Performance
-
+#### 2. Top Products by Revenue
 ![Top Products by Revenue](outputs/figures/top_products_revenue.png)
 
-*Figure 3: Best selling products by total revenue generated*
+*Best selling products by total revenue generated*
 
-### 3. Top Customers
-
-![Top Customers](outputs/figures/top_customers.png)
-
-*Figure 4: Highest value customers by total spending*
-
-### 4. Monthly Revenue Trend
-
+#### 3. Monthly Revenue Trend
 ![Monthly Revenue Trend](outputs/figures/monthly_revenue_trend.png)
 
-*Figure 5: Monthly sales performance showing seasonal peaks*
+*Monthly sales performance showing seasonal peaks*
 
-### 5. Transaction Distribution
-
-![Transaction Distribution](outputs/figures/transaction_distribution.png)
-
-*Figure 6: Distribution of transaction values (raw and log-transformed)*
-
-### 6. Hourly Transaction Pattern
-
+#### 4. Transactions by Hour
 ![Transactions by Hour](outputs/figures/transactions_by_hour.png)
 
-*Figure 7: Transaction volume by hour of day*
+*Transaction volume by hour of day*
 
-### 7. Daily Transaction Pattern
-
+#### 5. Transactions by Day of Week
 ![Transactions by Weekday](outputs/figures/transactions_by_weekday.png)
 
-*Figure 8: Transaction distribution across days of week*
+*Transaction distribution across days of week*
 
-### 8. Customer Purchase Frequency
+#### 6. Top Customers by Spending
+![Top Customers](outputs/figures/top_customers.png)
 
+*Highest value customers by total spending*
+
+#### 7. Transaction Value Distribution
+![Transaction Distribution](outputs/figures/transaction_distribution.png)
+
+*Distribution of transaction values (raw and log-transformed)*
+
+#### 8. Customer Purchase Frequency
 ![Customer Frequency](outputs/figures/customer_frequency.png)
 
-*Figure 9: Distribution of how often customers make purchases*
+*Distribution of how often customers make purchases*
 
-### 9. Order Value Distribution
-
+#### 9. Order Value Distribution
 ![Order Value Distribution](outputs/figures/order_value_distribution.png)
 
-*Figure 10: Distribution of order values showing typical spend*
+*Distribution of order values showing typical spend*
 
-### 10. RFM Score Distribution
+---
 
+### RFM Analysis Charts
+
+#### 10. RFM Score Distribution
 ![RFM Score Distribution](outputs/figures/rfm_score_distribution.png)
 
-*Figure 11: Distribution of combined RFM scores across customers*
+*Distribution of combined RFM scores across customers*
 
-### 11. Customer Segments
-
+#### 11. Customer Segments Distribution
 ![Customer Segments Pie](outputs/figures/customer_segments_pie.png)
 
-*Figure 12: Distribution of customers across RFM segments*
+*Distribution of customers across RFM segments*
 
-### 12. RFM Heatmap
-
+#### 12. RFM Heatmap
 ![RFM Heatmap](outputs/figures/rfm_heatmap.png)
 
-*Figure 13: Customer concentration by Recency vs Frequency*
+*Customer concentration by Recency vs Frequency scores*
 
-### 13. Revenue by Segment
-
+#### 13. Revenue by Segment
 ![Revenue by Segment](outputs/figures/revenue_by_segment.png)
 
-*Figure 14: Revenue contribution by customer segment*
+*Revenue contribution by customer segment*
 
-### 14. Optimal Clusters Selection
+---
 
+### Customer Clustering Charts
+
+#### 14. Optimal Clusters Selection
 ![Optimal Clusters](outputs/figures/optimal_clusters.png)
 
-*Figure 15: Elbow method and silhouette score for cluster selection*
+*Elbow method and silhouette score for cluster selection*
 
-### 15. Cluster Profiles Comparison
-
+#### 15. Cluster Profiles Comparison
 ![Cluster Profiles](outputs/figures/cluster_profiles_comparison.png)
 
-*Figure 16: Comparison of Recency, Frequency, and Monetary across clusters*
+*Comparison of Recency, Frequency, and Monetary across clusters*
 
-### 16. Customer Clusters Visualization
-
+#### 16. Customer Clusters Visualization
 ![Cluster Visualization](outputs/figures/cluster_visualization_2d.png)
 
-*Figure 17: 2D PCA projection of customer clusters*
+*2D PCA projection of customer clusters*
 
-### 17. Daily Sales Trend
+---
 
+### Time Series Analysis Charts
+
+#### 17. Daily Sales Trend
 ![Daily Sales Trend](outputs/figures/daily_sales_trend.png)
 
-*Figure 18: Daily sales with 7-day moving average*
+*Daily sales with 7-day moving average*
 
-### 18. Weekly Sales Trend
-
+#### 18. Weekly Sales Trend
 ![Weekly Sales Trend](outputs/figures/weekly_sales_trend.png)
 
-*Figure 19: Weekly sales performance over time*
+*Weekly sales performance over time*
 
-### 19. Monthly Sales Trend
-
+#### 19. Monthly Sales Trend
 ![Monthly Sales Trend](outputs/figures/monthly_sales_trend.png)
 
-*Figure 20: Monthly sales performance*
+*Monthly sales performance*
 
-### 20. Weekly Sales Pattern
-
+#### 20. Weekly Sales Pattern
 ![Weekly Sales Pattern](outputs/figures/weekday_sales_pattern.png)
 
-*Figure 21: Revenue and orders by day of week*
+*Revenue and orders by day of week*
 
-### 21. Hourly Sales Pattern
-
+#### 21. Hourly Sales Pattern
 ![Hourly Sales Pattern](outputs/figures/hourly_sales_pattern.png)
 
-*Figure 22: Revenue and orders by hour of day*
+*Revenue and orders by hour of day*
 
-### 22. Monthly Growth Analysis
-
+#### 22. Monthly Growth Analysis
 ![Monthly Growth](outputs/figures/monthly_growth_analysis.png)
 
-*Figure 23: Month-over-month sales growth rates*
+*Month-over-month sales growth rates*
 
-### 23. Sales Calendar Heatmap
-
+#### 23. Sales Calendar Heatmap
 ![Sales Calendar](outputs/figures/sales_calendar_heatmap.png)
 
-*Figure 24: Heatmap showing sales by month and day of week*
+*Heatmap showing sales by month and day of week*
 
-### 24. Time Series Decomposition
-
+#### 24. Time Series Decomposition
 ![Time Series Decomposition](outputs/figures/time_series_decomposition.png)
 
-*Figure 25: Breakdown of sales into Trend, Seasonal, and Residual components*
+*Breakdown of sales into Trend, Seasonal, and Residual components*
 
-### 25. Final Business Dashboard
+#### 25. Log Transformation Demo
+![Log Transformation](outputs/figures/log_transformation_demo.png)
 
+*Demonstration of log transformation for skewed data*
+
+---
+
+### Final Dashboard
+
+#### 26. Final Business Dashboard
 ![Final Dashboard](outputs/figures/final_business_dashboard.png)
 
-*Figure 26: Comprehensive final dashboard with key business insights*
+*Comprehensive final dashboard with key business insights*
 
 ---
 
